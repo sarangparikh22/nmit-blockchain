@@ -13,8 +13,9 @@ participantsArray = JSON.parse(participants);
 
 let rankArray = [];
 let rank = 0;
-console.log('\tNMIT BLOCKCHAIN WORKSHOP'.bold.underline.inverse.bgBlue)
-console.log('\tGINI TOKEN (GINI)'.underline.italic.cyan)
+console.log("");
+console.log('\tORDER OF SATOSHI | NMIT Blockchain'.bold.underline.inverse.bgBlue)
+console.log('\t\tGINI TOKEN (GINI)'.underline.italic.cyan)
 for(let i=0;i<participantsArray.length;i++){
     var instance = new web3.eth.Contract(GiniContract.abi, GiniContract.address);
     instance.methods.balanceOf(participantsArray[i].address).call(function(err, result) {
