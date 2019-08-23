@@ -60,7 +60,7 @@ Prompt.get(schema, function(err, result) {
       gasPrice: '0x' + gasPrice.toString(16),
       gasLimit: '0x' + gasLimit.toString(16),
       data:            encodedCall,
-      to:              '0x4DE7e1dd765ff5fF382AB656392A5041FebBD485'
+      to:              '0xc639411f111ff9653a329669bab4369de7c8ae29'
     };
 
     var tx = new EthereumTx(txParams);

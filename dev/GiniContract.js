@@ -221,7 +221,7 @@ const abi = [
             "type": "event"
         }
     ];
-const address = "0x4de7e1dd765ff5ff382ab656392a5041febbd485";
+const address = "0xc639411f111ff9653a329669bab4369de7c8ae29";
 
 module.exports = {
     abi,
