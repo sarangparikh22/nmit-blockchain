@@ -1,2 +1,2 @@
 # nmit-blockchain
-NMIT Blockchain Elective Course Repo
+This is the official NMIT Blockchain Elective Course Repo
